@@ -115,6 +115,7 @@ export default function About() {
                     justifyContent: 'space-between',
                     alignItems: 'center',
                     flexDirection: i % 2 === 0 ? 'row' : 'row-reverse',
+                    position: 'relative',
                   }}
                   id={`milestone-${m.year}`}
                 >
@@ -125,13 +126,15 @@ export default function About() {
                     </div>
                   </div>
                   <div style={{
+                    position: 'absolute',
+                    left: '50%',
+                    transform: 'translateX(-50%)',
                     width: '60px', height: '60px', flexShrink: 0,
                     background: 'linear-gradient(135deg, rgba(245,158,11,0.2), rgba(20,184,166,0.2)), var(--navy-900)',
                     border: '2px solid rgba(245,158,11,0.4)',
                     borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center',
                     fontWeight: 800, fontSize: '0.8rem', color: 'var(--gold-400)',
                     zIndex: 1, flexDirection: 'column',
-                    margin: '0 auto'
                   }}>
                     {m.year}
                   </div>
