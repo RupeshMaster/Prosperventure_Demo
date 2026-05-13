@@ -99,13 +99,6 @@ export default function About() {
             <div className="divider" style={{ margin: '20px auto' }} />
           </div>
           <div style={{ position: 'relative' }}>
-            {/* Timeline line */}
-            <div style={{
-              position: 'absolute', left: '50%', top: '50px', bottom: '50px',
-              width: '2px', background: 'linear-gradient(180deg, var(--gold-400), var(--teal-400))',
-              transform: 'translateX(-50%)', opacity: 0.3,
-              display: 'block',
-            }} className="timeline-line" />
             <div style={{ display: 'flex', flexDirection: 'column', gap: '40px' }}>
               {milestones.map((m, i) => (
                 <div
@@ -119,7 +112,19 @@ export default function About() {
                   }}
                   id={`milestone-${m.year}`}
                 >
-                  <div style={{ width: 'calc(50% - 40px)', display: 'flex', justifyContent: i % 2 === 0 ? 'flex-end' : 'flex-start' }}>
+                  {/* Perfect segmented line that never protrudes */}
+                  <div style={{
+                    position: 'absolute',
+                    left: '50%',
+                    top: i === 0 ? '50%' : '0',
+                    bottom: i === milestones.length - 1 ? '50%' : '-40px',
+                    width: '2px',
+                    background: 'var(--gold-400)',
+                    transform: 'translateX(-50%)',
+                    opacity: 0.3,
+                    zIndex: 0
+                  }} />
+                  <div style={{ width: 'calc(50% - 40px)', display: 'flex', justifyContent: i % 2 === 0 ? 'flex-end' : 'flex-start', zIndex: 1 }}>
                     <div className="glass-card" style={{ padding: '20px', maxWidth: '320px', width: '100%', textAlign: 'left' }}>
                       <h4 style={{ color: 'var(--gold-400)', fontWeight: 700, marginBottom: '8px' }}>{m.title}</h4>
                       <p style={{ fontSize: '0.875rem', color: 'var(--text-secondary)', lineHeight: 1.6 }}>{m.desc}</p>
