@@ -112,14 +112,14 @@ export default function About() {
                   key={i}
                   style={{
                     display: 'flex',
-                    gap: '40px',
+                    justifyContent: 'space-between',
                     alignItems: 'center',
                     flexDirection: i % 2 === 0 ? 'row' : 'row-reverse',
                   }}
                   id={`milestone-${m.year}`}
                 >
-                  <div style={{ flex: 1, textAlign: i % 2 === 0 ? 'right' : 'left' }}>
-                    <div className="glass-card" style={{ padding: '24px 28px', display: 'inline-block', maxWidth: '320px', textAlign: 'left' }}>
+                  <div style={{ width: 'calc(50% - 40px)', display: 'flex', justifyContent: i % 2 === 0 ? 'flex-end' : 'flex-start' }}>
+                    <div className="glass-card" style={{ padding: '20px', maxWidth: '320px', width: '100%', textAlign: 'left' }}>
                       <h4 style={{ color: 'var(--gold-400)', fontWeight: 700, marginBottom: '8px' }}>{m.title}</h4>
                       <p style={{ fontSize: '0.875rem', color: 'var(--text-secondary)', lineHeight: 1.6 }}>{m.desc}</p>
                     </div>
@@ -131,10 +131,11 @@ export default function About() {
                     borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center',
                     fontWeight: 800, fontSize: '0.8rem', color: 'var(--gold-400)',
                     zIndex: 1, flexDirection: 'column',
+                    margin: '0 auto'
                   }}>
                     {m.year}
                   </div>
-                  <div style={{ flex: 1 }} />
+                  <div style={{ width: 'calc(50% - 40px)' }} />
                 </div>
               ))}
             </div>
