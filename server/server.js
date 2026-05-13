@@ -30,7 +30,7 @@ app.use('/api/contact', require('./routes/contact'));
 app.get('/api/health', (req, res) => {
   res.json({
     success: true,
-    message: 'ProspVenture API is running',
+    message: 'Prosperventure API is running',
     timestamp: new Date().toISOString(),
     dbStatus: mongoose.connection.readyState === 1 ? 'connected' : 'disconnected',
   });
@@ -48,7 +48,7 @@ app.use((err, req, res, next) => {
 });
 
 // ===== Database + Start =====
-const MONGO_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/prospventure';
+const MONGO_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/Prosperventure';
 
 mongoose.connect(MONGO_URI)
   .then(() => {
@@ -67,6 +67,6 @@ mongoose.connect(MONGO_URI)
     console.warn('⚠️  MongoDB connection failed:', err.message);
     console.log('🔄 Starting server without database (contact form will not persist)');
     app.listen(PORT, () => {
-      console.log(`🚀 ProspVenture API server running on http://localhost:${PORT} (no DB)`);
+      console.log(`🚀 Prosperventure API server running on http://localhost:${PORT} (no DB)`);
     });
   });

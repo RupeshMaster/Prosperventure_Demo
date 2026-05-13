@@ -11,7 +11,7 @@ const contactInfo = [
     color: '#F59E0B',
     bg: 'rgba(245,158,11,0.1)',
     title: 'Visit Our Office',
-    info: '123 Business Hub, ProspVentureiman Point,\nMumbai, Maharashtra 400001',
+    info: '123 Business Hub, Nariman Point,\nMumbai, Maharashtra 400001',
   },
   {
     icon: '📞',
@@ -25,7 +25,7 @@ const contactInfo = [
     color: '#A855F7',
     bg: 'rgba(168,85,247,0.1)',
     title: 'Email Us',
-    info: 'hello@prospventure.in\nsupport@prospventure.in',
+    info: 'hello@Prosperventure.in\nsupport@Prosperventure.in',
   },
   {
     icon: '🕐',

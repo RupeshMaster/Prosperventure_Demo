@@ -1,6 +1,6 @@
-# ProspVenture
+# Prosperventure
 
-ProspVenture is a comprehensive, modern MERN-stack platform that offers a unified dashboard for users to request and manage multiple fundamental business services (such as Logistics, Insurance, Real Estate, Taxation, and Content Services) under one roof.
+Prosperventure is a comprehensive, modern MERN-stack platform that offers a unified dashboard for users to request and manage multiple fundamental business services (such as Logistics, Insurance, Real Estate, Taxation, and Content Services) under one roof.
 
 ## Tech Stack
 - **Frontend**: React (built with Vite), React Router
@@ -23,8 +23,8 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/ProspVenture.git
-cd ProspVenture
+git clone https://github.com/YOUR_GITHUB_USERNAME/Prosperventure.git
+cd Prosperventure
 ```
 
 ### 2. Backend Setup

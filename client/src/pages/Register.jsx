@@ -31,7 +31,7 @@ export default function Register() {
     <main className="auth-page">
       <div className="contact-form-wrapper" style={{ width: '100%', maxWidth: '440px', padding: '40px' }}>
         <div style={{ textAlign: 'center', marginBottom: '32px' }}>
-          <span className="badge badge-teal" style={{ marginBottom: '16px' }}>Join ProspVenture</span>
+          <span className="badge badge-teal" style={{ marginBottom: '16px' }}>Join Prosperventure</span>
           <h2 className="auth-title">
             Create an <span className="gradient-text">Account</span>
           </h2>

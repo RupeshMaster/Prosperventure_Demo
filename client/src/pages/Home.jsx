@@ -18,7 +18,7 @@ const testimonials = [
     name: 'Rajesh Sharma',
     role: 'CEO, TechVentures Pvt Ltd',
     initials: 'RS',
-    text: 'ProspVenture transformed our supply chain completely. Their logistics team\'s expertise and real-time tracking system reduced our delivery costs by 28%. Absolutely outstanding service!',
+    text: 'Prosperventure transformed our supply chain completely. Their logistics team\'s expertise and real-time tracking system reduced our delivery costs by 28%. Absolutely outstanding service!',
     rating: 5,
     color: '#F59E0B',
   },
@@ -27,7 +27,7 @@ const testimonials = [
     name: 'Priya Menonon',
     role: 'Director, Sapphire Realty',
     initials: 'PM',
-    text: 'The real estate team at ProspVenture helped us close 3 major commercial deals in just 2 months. Their market insights and legal expertise are unparalleled in the industry.',
+    text: 'The real estate team at Prosperventure helped us close 3 major commercial deals in just 2 months. Their market insights and legal expertise are unparalleled in the industry.',
     rating: 5,
     color: '#14B8A6',
   },
@@ -144,7 +144,7 @@ export default function Home() {
           {/* Visual */}
           <div className="hero-visual">
             <div className="hero-visual-card">
-              <img src="/hero_banner.png" alt="ProspVenture Services Platform" className="hero-visual-img" />
+              <img src="/hero_banner.png" alt="Prosperventure Services Platform" className="hero-visual-img" />
               <div className="hero-visual-overlay">
                 <h3 className="hero-visual-title">6 Services. One Platform.</h3>
                 <div className="hero-services-mini">
@@ -187,7 +187,7 @@ export default function Home() {
         <div className="container">
           <div className="features-grid">
             <div className="features-content">
-              <span className="badge badge-teal">Why Choose ProspVenture</span>
+              <span className="badge badge-teal">Why Choose Prosperventure</span>
               <h2>The Smart Choice for <span className="gradient-text">Modern Businesses</span></h2>
               <p>
                 We combine deep industry expertise with cutting-edge technology 
@@ -214,7 +214,7 @@ export default function Home() {
 
             <div className="features-visual">
               <div className="features-main-card">
-                <img src="/about_team.png" alt="ProspVenture Team" />
+                <img src="/about_team.png" alt="Prosperventure Team" />
                 <div style={{
                   position: 'absolute', inset: 0,
                   background: 'linear-gradient(135deg, rgba(245,158,11,0.1), transparent)'
@@ -270,7 +270,7 @@ export default function Home() {
             <span className="badge badge-teal">Testimonials</span>
             <h2>What Our Clients <span className="gradient-text">Say</span></h2>
             <div className="divider" style={{ margin: '20px auto' }} />
-            <p>Thousands of businesses trust ProspVenture to drive their success. Here's what some of them have to say.</p>
+            <p>Thousands of businesses trust Prosperventure to drive their success. Here's what some of them have to say.</p>
           </div>
 
           <div className="testimonials-grid">
@@ -305,10 +305,10 @@ export default function Home() {
             <div className="cta-banner-bg" />
             <span className="badge badge-gold" style={{ marginBottom: '24px' }}>Ready to Get Started?</span>
             <h2>
-              Transform Your Business with <span className="gradient-text">ProspVenture</span> Today
+              Transform Your Business with <span className="gradient-text">Prosperventure</span> Today
             </h2>
             <p>
-              Join 15,000+ businesses that trust ProspVenture for their critical operations. 
+              Join 15,000+ businesses that trust Prosperventure for their critical operations. 
               Get a free consultation with our experts and discover how we can help.
             </p>
             <div className="cta-buttons">

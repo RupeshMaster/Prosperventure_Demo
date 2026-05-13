@@ -43,7 +43,7 @@ export default function About() {
             <span className="gradient-text">Defined by Excellence</span>
           </h1>
           <p style={{ fontSize: '1.1rem', color: 'var(--text-secondary)', maxWidth: '600px', margin: '0 auto' }}>
-            Since 2016, ProspVenture has been India's most trusted partner for comprehensive business services, 
+            Since 2016, Prosperventure has been India's most trusted partner for comprehensive business services, 
             helping thousands of clients achieve more with less complexity.
           </p>
         </div>
@@ -54,7 +54,7 @@ export default function About() {
         <div className="container">
           <div className="about-content-grid">
             <div className="about-img-wrapper">
-              <img src="/about_team.png" alt="ProspVenture Team" />
+              <img src="/about_team.png" alt="Prosperventure Team" />
               <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(135deg, rgba(245,158,11,0.08), transparent)' }} />
               <div className="about-img-badge">
                 <h3>8+ Years</h3>
@@ -67,7 +67,7 @@ export default function About() {
               <h2>More Than Just a <span className="gradient-text">Service Provider</span></h2>
               <div className="divider divider-left" />
               <p>
-                ProspVenture was born out of a simple frustration: businesses were wasting time and money 
+                Prosperventure was born out of a simple frustration: businesses were wasting time and money 
                 managing multiple service providers for their fundamental operational needs. Our founders, 
                 seasoned professionals from logistics, finance, and technology, came together to build 
                 something different.
@@ -195,7 +195,7 @@ export default function About() {
           <div className="cta-banner">
             <div className="cta-banner-bg" />
             <span className="badge badge-gold" style={{ marginBottom: '24px' }}>Join Our Family</span>
-            <h2>Ready to Experience the <span className="gradient-text">ProspVenture Difference?</span></h2>
+            <h2>Ready to Experience the <span className="gradient-text">Prosperventure Difference?</span></h2>
             <p>Let our experts show you how we can simplify and supercharge your business operations.</p>
             <div className="cta-buttons">
               <Link to="/contact" className="btn-primary" id="about-final-cta">Get Started Today</Link>

@@ -21,7 +21,7 @@ export default function DashboardHome() {
       <div className="contact-form-wrapper" style={{ padding: '32px' }}>
         <h2 style={{ fontFamily: "'Playfair Display', serif", marginBottom: '16px' }}>Welcome, {user?.name}!</h2>
         <p style={{ color: 'var(--text-secondary)', lineHeight: 1.6 }}>
-          This is your ProspVenture {user?.role} dashboard. From here, you can manage your account and access platform features. 
+          This is your Prosperventure {user?.role} dashboard. From here, you can manage your account and access platform features. 
           {user?.role === 'user' && " We are currently processing your recent inquiries. Our specialists will contact you shortly."}
           {user?.role === 'admin' && " You have access to view and manage all incoming contact submissions from clients."}
           {user?.role === 'superadmin' && " You have full system access, including user management and platform configuration."}

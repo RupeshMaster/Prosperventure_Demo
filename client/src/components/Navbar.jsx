@@ -57,7 +57,7 @@ export default function Navbar() {
         <div className="navbar-container">
           {/* Logo */}
           <Link to="/" className="navbar-logo">
-            <span className="logo-text">ProspVenture</span>
+            <span className="logo-text">Prosperventure</span>
           </Link>
 
           {/* Desktop Nav */}

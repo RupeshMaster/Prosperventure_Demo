@@ -18,7 +18,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="footer-brand">
             <Link to="/" className="navbar-logo" style={{ marginBottom: 0 }}>
-              <span className="logo-text">ProspVenture</span>
+              <span className="logo-text">Prosperventure</span>
             </Link>
             <p>
               Your trusted partner for comprehensive business solutions. 
@@ -73,7 +73,7 @@ export default function Footer() {
             </div>
             <div className="footer-contact-item">
               <div className="footer-contact-icon">✉️</div>
-              <p>hello@prospventure.in<br />support@prospventure.in</p>
+              <p>hello@Prosperventure.in<br />support@Prosperventure.in</p>
             </div>
           </div>
         </div>
@@ -81,7 +81,7 @@ export default function Footer() {
 
       {/* Bottom Bar */}
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} ProspVenture. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Prosperventure. All rights reserved.</p>
         <div className="footer-bottom-links">
           <a href="#" className="footer-bottom-link" id="footer-privacy">Privacy Policy</a>
           <a href="#" className="footer-bottom-link" id="footer-terms">Terms of Service</a>

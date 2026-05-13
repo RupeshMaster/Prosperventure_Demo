@@ -39,7 +39,7 @@ export default function DashboardLayout() {
       <aside className={`dashboard-sidebar ${sidebarOpen ? 'open' : ''}`}>
         <div style={{ height: '80px', display: 'flex', alignItems: 'center', padding: '0 24px', borderBottom: '1px solid var(--border-color)' }}>
           <Link to="/" style={{ fontSize: '1.5rem', fontWeight: 800, color: 'var(--text-primary)' }}>
-            ProspVenture
+            Prosperventure
           </Link>
         </div>
 

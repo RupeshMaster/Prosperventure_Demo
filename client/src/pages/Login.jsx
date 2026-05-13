@@ -32,7 +32,7 @@ export default function Login() {
         <div style={{ textAlign: 'center', marginBottom: '32px' }}>
           <span className="badge badge-gold" style={{ marginBottom: '16px' }}>Welcome Back</span>
           <h2 className="auth-title">
-            Login to <span className="gradient-text">ProspVenture</span>
+            Login to <span className="gradient-text">Prosperventure</span>
           </h2>
         </div>
 
